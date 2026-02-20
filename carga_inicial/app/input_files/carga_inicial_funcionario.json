@@ -1,0 +1,994 @@
+[
+  {
+    "cenario": "vazio_total"
+  },
+  {
+    "cenario": "nome_null",
+    "nome_funcionario": null
+  },
+  {
+    "cenario": "nome_vazio",
+    "nome_funcionario": ""
+  },
+  {
+    "cenario": "nome_espaco",
+    "nome_funcionario": " "
+  },
+  {
+    "cenario": "nome_tab",
+    "nome_funcionario": "\t"
+  },
+  {
+    "cenario": "nome_quebra_linha",
+    "nome_funcionario": "\n"
+  },
+  {
+    "cenario": "nome_1_char",
+    "nome_funcionario": "A"
+  },
+  {
+    "cenario": "nome_2_chars",
+    "nome_funcionario": "AB"
+  },
+  {
+    "cenario": "nome_3_chars",
+    "nome_funcionario": "ABC"
+  },
+  {
+    "cenario": "nome_minusculo",
+    "nome_funcionario": "joao"
+  },
+  {
+    "cenario": "nome_maiusculo",
+    "nome_funcionario": "JOAO"
+  },
+  {
+    "cenario": "nome_misto",
+    "nome_funcionario": "JoAo"
+  },
+  {
+    "cenario": "nome_com_espaco",
+    "nome_funcionario": "Joao Silva"
+  },
+  {
+    "cenario": "nome_espaco_duplo",
+    "nome_funcionario": "Joao  Silva"
+  },
+  {
+    "cenario": "nome_hifen",
+    "nome_funcionario": "Joao-Silva"
+  },
+  {
+    "cenario": "nome_underscore",
+    "nome_funcionario": "Joao_Silva"
+  },
+  {
+    "cenario": "nome_com_numero",
+    "nome_funcionario": "Joao123"
+  },
+  {
+    "cenario": "nome_numero_inicio",
+    "nome_funcionario": "123Joao"
+  },
+  {
+    "cenario": "nome_simbolo_inicio",
+    "nome_funcionario": "@Joao"
+  },
+  {
+    "cenario": "nome_simbolo_meio",
+    "nome_funcionario": "Jo@o"
+  },
+  {
+    "cenario": "nome_simbolo_fim",
+    "nome_funcionario": "Joao@"
+  },
+  {
+    "cenario": "nome_unicode",
+    "nome_funcionario": "João"
+  },
+  {
+    "cenario": "nome_emoji",
+    "nome_funcionario": "João🙂"
+  },
+  {
+    "cenario": "nome_sql_injection",
+    "nome_funcionario": "Robert'); DROP TABLE funcionarios;--"
+  },
+  {
+    "cenario": "nome_html",
+    "nome_funcionario": "<script>alert(1)</script>"
+  },
+  {
+    "cenario": "nome_muito_longo_255",
+    "nome_funcionario": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+  },
+  {
+    "cenario": "nome_muito_longo_500",
+    "nome_funcionario": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+  },
+  {
+    "cenario": "telefone_null",
+    "telefone_funcionario": null
+  },
+  {
+    "cenario": "telefone_vazio",
+    "telefone_funcionario": ""
+  },
+  {
+    "cenario": "telefone_espaco",
+    "telefone_funcionario": " "
+  },
+  {
+    "cenario": "telefone_curto",
+    "telefone_funcionario": "11"
+  },
+  {
+    "cenario": "telefone_sem_ddd",
+    "telefone_funcionario": "999999999"
+  },
+  {
+    "cenario": "telefone_ddd_sem_numero",
+    "telefone_funcionario": "119"
+  },
+  {
+    "cenario": "telefone_10_digitos",
+    "telefone_funcionario": "1199999999"
+  },
+  {
+    "cenario": "telefone_11_digitos",
+    "telefone_funcionario": "11999999999"
+  },
+  {
+    "cenario": "telefone_com_ddi",
+    "telefone_funcionario": "5511999999999"
+  },
+  {
+    "cenario": "telefone_com_mais",
+    "telefone_funcionario": "+5511999999999"
+  },
+  {
+    "cenario": "telefone_mascarado",
+    "telefone_funcionario": "(11)99999-9999"
+  },
+  {
+    "cenario": "telefone_hifen",
+    "telefone_funcionario": "99999-9999"
+  },
+  {
+    "cenario": "telefone_letras",
+    "telefone_funcionario": "ABCDE"
+  },
+  {
+    "cenario": "telefone_misto",
+    "telefone_funcionario": "11AB9999"
+  },
+  {
+    "cenario": "telefone_muito_longo",
+    "telefone_funcionario": "99999999999999999999"
+  },
+  {
+    "cenario": "telefone_numero_tipo_int",
+    "telefone_funcionario": 5511999999999
+  },
+  {
+    "cenario": "telefone_boolean",
+    "telefone_funcionario": true
+  },
+  {
+    "cenario": "cpf_null",
+    "cpf_funcionario": "None"
+  },
+  {
+    "cenario": "cpf_vazio",
+    "cpf_funcionario": ""
+  },
+  {
+    "cenario": "cpf_curto",
+    "cpf_funcionario": "123"
+  },
+  {
+    "cenario": "cpf_longo",
+    "cpf_funcionario": "123456789012"
+  },
+  {
+    "cenario": "cpf_repetido",
+    "cpf_funcionario": "11111111111"
+  },
+  {
+    "cenario": "cpf_valido",
+    "cpf_funcionario": "12345678909"
+  },
+  {
+    "cenario": "cpf_mascarado",
+    "cpf_funcionario": "123.456.789-09"
+  },
+  {
+    "cenario": "cpf_tipo_int",
+    "cpf_funcionario": "12345678909"
+  },
+  {
+    "cenario": "rg_null",
+    "rg_funcionario": null
+  },
+  {
+    "cenario": "rg_vazio",
+    "rg_funcionario": ""
+  },
+  {
+    "cenario": "rg_curto",
+    "rg_funcionario": "12"
+  },
+  {
+    "cenario": "rg_letras",
+    "rg_funcionario": "ABC123"
+  },
+  {
+    "cenario": "rg_mascarado",
+    "rg_funcionario": "12.345.678-9"
+  },
+  {
+    "cenario": "rg_valido",
+    "rg_funcionario": "12345678"
+  },
+  {
+    "cenario": "rg_tipo_int",
+    "rg_funcionario": 12345678
+  },
+  {
+    "cenario": "rg_boolean",
+    "rg_funcionario": false
+  },
+  {
+    "cenario": "salario_null",
+    "salario_funcionario": null
+  },
+  {
+    "cenario": "salario_vazio",
+    "salario_funcionario": ""
+  },
+  {
+    "cenario": "salario_string",
+    "salario_funcionario": "2000"
+  },
+  {
+    "cenario": "salario_zero",
+    "salario_funcionario": 0
+  },
+  {
+    "cenario": "salario_negativo",
+    "salario_funcionario": -1000
+  },
+  {
+    "cenario": "salario_decimal",
+    "salario_funcionario": 2500.75
+  },
+  {
+    "cenario": "salario_decimal_string",
+    "salario_funcionario": "2500.75"
+  },
+  {
+    "cenario": "salario_muito_baixo",
+    "salario_funcionario": 0.01
+  },
+  {
+    "cenario": "salario_muito_alto",
+    "salario_funcionario": 999999999.99
+  },
+  {
+    "cenario": "salario_com_virgula",
+    "salario_funcionario": "2.500,75"
+  },
+  {
+    "cenario": "salario_com_moeda",
+    "salario_funcionario": "R$ 2500"
+  },
+  {
+    "cenario": "salario_boolean",
+    "salario_funcionario": true
+  },
+  {
+    "cenario": "salario_nan",
+    "salario_funcionario": "NaN"
+  },
+  {
+    "cenario": "salario_infinito",
+    "salario_funcionario": "Infinity"
+  },
+  {
+    "cenario": "departamento_null",
+    "departamento_funcionario": null
+  },
+  {
+    "cenario": "departamento_vazio",
+    "departamento_funcionario": ""
+  },
+  {
+    "cenario": "departamento_espaco",
+    "departamento_funcionario": " "
+  },
+  {
+    "cenario": "departamento_valido",
+    "departamento_funcionario": "Financeiro"
+  },
+  {
+    "cenario": "departamento_minusculo",
+    "departamento_funcionario": "financeiro"
+  },
+  {
+    "cenario": "departamento_maiusculo",
+    "departamento_funcionario": "FINANCEIRO"
+  },
+  {
+    "cenario": "departamento_numero",
+    "departamento_funcionario": "123"
+  },
+  {
+    "cenario": "departamento_misto",
+    "departamento_funcionario": "TI-Infra"
+  },
+  {
+    "cenario": "departamento_simbolo",
+    "departamento_funcionario": "@dm!"
+  },
+  {
+    "cenario": "departamento_sql",
+    "departamento_funcionario": "RH; DROP TABLE"
+  },
+  {
+    "cenario": "departamento_html",
+    "departamento_funcionario": "<dept>RH</dept>"
+  },
+  {
+    "cenario": "departamento_muito_longo",
+    "departamento_funcionario": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+  },
+  {
+    "cenario": "departamento_tipo_int",
+    "departamento_funcionario": 123
+  },
+  {
+    "cenario": "departamento_boolean",
+    "departamento_funcionario": false
+  },
+  {
+    "cenario": "data_admissao_null",
+    "data_admissao_funcionario": null
+  },
+  {
+    "cenario": "data_admissao_vazia",
+    "data_admissao_funcionario": ""
+  },
+  {
+    "cenario": "data_admissao_formato_br",
+    "data_admissao_funcionario": "01/01/2020"
+  },
+  {
+    "cenario": "data_admissao_formato_iso",
+    "data_admissao_funcionario": "2020-01-01"
+  },
+  {
+    "cenario": "data_admissao_texto",
+    "data_admissao_funcionario": "hoje"
+  },
+  {
+    "cenario": "data_admissao_invalida",
+    "data_admissao_funcionario": "31/02/2020"
+  },
+  {
+    "cenario": "data_admissao_futura",
+    "data_admissao_funcionario": "2999-01-01"
+  },
+  {
+    "cenario": "data_admissao_antiga",
+    "data_admissao_funcionario": "1900-01-01"
+  },
+  {
+    "cenario": "data_admissao_boolean",
+    "data_admissao_funcionario": true
+  },
+  {
+    "cenario": "data_nascimento_null",
+    "data_nascimento_funcionario": null
+  },
+  {
+    "cenario": "data_nascimento_vazia",
+    "data_nascimento_funcionario": ""
+  },
+  {
+    "cenario": "data_nascimento_formato_br",
+    "data_nascimento_funcionario": "01/01/1990"
+  },
+  {
+    "cenario": "data_nascimento_formato_iso",
+    "data_nascimento_funcionario": "1990-01-01"
+  },
+  {
+    "cenario": "data_nascimento_texto",
+    "data_nascimento_funcionario": "ontem"
+  },
+  {
+    "cenario": "data_nascimento_invalida",
+    "data_nascimento_funcionario": "31/02/1990"
+  },
+  {
+    "cenario": "data_nascimento_futura",
+    "data_nascimento_funcionario": "2999-01-01"
+  },
+  {
+    "cenario": "data_nascimento_muito_antiga",
+    "data_nascimento_funcionario": "1800-01-01"
+  },
+  {
+    "cenario": "data_nascimento_timestamp",
+    "data_nascimento_funcionario": 631152000
+  },
+  {
+    "cenario": "data_nascimento_boolean",
+    "data_nascimento_funcionario": false
+  },
+  {
+    "cenario": "sexo_null",
+    "sexo_funcionario": null
+  },
+  {
+    "cenario": "sexo_vazio",
+    "sexo_funcionario": ""
+  },
+  {
+    "cenario": "sexo_espaco",
+    "sexo_funcionario": " "
+  },
+  {
+    "cenario": "sexo_masculino",
+    "sexo_funcionario": "M"
+  },
+  {
+    "cenario": "sexo_feminino",
+    "sexo_funcionario": "F"
+  },
+  {
+    "cenario": "sexo_minusculo",
+    "sexo_funcionario": "m"
+  },
+  {
+    "cenario": "sexo_extenso_masculino",
+    "sexo_funcionario": "Masculino"
+  },
+  {
+    "cenario": "sexo_extenso_feminino",
+    "sexo_funcionario": "Feminino"
+  },
+  {
+    "cenario": "sexo_outro",
+    "sexo_funcionario": "Outro"
+  },
+  {
+    "cenario": "sexo_nao_informado",
+    "sexo_funcionario": "Nao informado"
+  },
+  {
+    "cenario": "sexo_numero",
+    "sexo_funcionario": 1
+  },
+  {
+    "cenario": "sexo_boolean",
+    "sexo_funcionario": true
+  },
+  {
+    "cenario": "sexo_simbolo",
+    "sexo_funcionario": "@"
+  },
+  {
+    "cenario": "sexo_sql",
+    "sexo_funcionario": "M; DROP TABLE"
+  },
+  {
+    "cenario": "pcd_null",
+    "pcd_funcionario": null
+  },
+  {
+    "cenario": "pcd_true",
+    "pcd_funcionario": true
+  },
+  {
+    "cenario": "pcd_false",
+    "pcd_funcionario": false
+  },
+  {
+    "cenario": "pcd_string_true",
+    "pcd_funcionario": "true"
+  },
+  {
+    "cenario": "pcd_string_false",
+    "pcd_funcionario": "false"
+  },
+  {
+    "cenario": "pcd_sim",
+    "pcd_funcionario": "Sim"
+  },
+  {
+    "cenario": "pcd_nao",
+    "pcd_funcionario": "Nao"
+  },
+  {
+    "cenario": "pcd_numero_1",
+    "pcd_funcionario": 1
+  },
+  {
+    "cenario": "pcd_numero_0",
+    "pcd_funcionario": 0
+  },
+  {
+    "cenario": "pcd_vazio",
+    "pcd_funcionario": ""
+  },
+  {
+    "cenario": "pcd_sql",
+    "pcd_funcionario": "true; DROP"
+  },
+  {
+    "cenario": "estado_civil_null",
+    "estado_civil_funcionario": null
+  },
+  {
+    "cenario": "estado_civil_vazio",
+    "estado_civil_funcionario": ""
+  },
+  {
+    "cenario": "estado_civil_solteiro",
+    "estado_civil_funcionario": "Solteiro"
+  },
+  {
+    "cenario": "estado_civil_casado",
+    "estado_civil_funcionario": "Casado"
+  },
+  {
+    "cenario": "estado_civil_divorciado",
+    "estado_civil_funcionario": "Divorciado"
+  },
+  {
+    "cenario": "estado_civil_viuvo",
+    "estado_civil_funcionario": "Viuvo"
+  },
+  {
+    "cenario": "estado_civil_minusculo",
+    "estado_civil_funcionario": "casado"
+  },
+  {
+    "cenario": "estado_civil_maiusculo",
+    "estado_civil_funcionario": "CASADO"
+  },
+  {
+    "cenario": "estado_civil_outro",
+    "estado_civil_funcionario": "Outro"
+  },
+  {
+    "cenario": "estado_civil_numero",
+    "estado_civil_funcionario": 2
+  },
+  {
+    "cenario": "estado_civil_boolean",
+    "estado_civil_funcionario": false
+  },
+  {
+    "cenario": "estado_civil_sql",
+    "estado_civil_funcionario": "Casado; DROP"
+  },
+  {
+    "cenario": "quant_dependentes_null",
+    "quantidade_dependentes": null
+  },
+  {
+    "cenario": "quant_dependentes_zero",
+    "quantidade_dependentes": 0
+  },
+  {
+    "cenario": "quant_dependentes_um",
+    "quantidade_dependentes": 1
+  },
+  {
+    "cenario": "quant_dependentes_medio",
+    "quantidade_dependentes": 3
+  },
+  {
+    "cenario": "quant_dependentes_alto",
+    "quantidade_dependentes": 10
+  },
+  {
+    "cenario": "quant_dependentes_negativo",
+    "quantidade_dependentes": -1
+  },
+  {
+    "cenario": "quant_dependentes_string",
+    "quantidade_dependentes": "2"
+  },
+  {
+    "cenario": "quant_dependentes_decimal",
+    "quantidade_dependentes": 2.5
+  },
+  {
+    "cenario": "quant_dependentes_boolean",
+    "quantidade_dependentes": true
+  },
+  {
+    "cenario": "quant_dependentes_muito_alto",
+    "quantidade_dependentes": 999
+  },
+  {
+    "cenario": "funcionario_01_vazio"
+  },
+  {
+    "cenario": "funcionario_02_nome",
+    "nome_funcionario": "Joao Silva"
+  },
+  {
+    "cenario": "funcionario_03_nome_telefone",
+    "nome_funcionario": "Joao Silva",
+    "telefone_funcionario": "5511999999999"
+  },
+  {
+    "cenario": "funcionario_04_nome_telefone_cpf",
+    "nome_funcionario": "Joao Silva",
+    "telefone_funcionario": "5511999999999",
+    "cpf_funcionario": "12345678909"
+  },
+  {
+    "cenario": "funcionario_05_nome_telefone_cpf_rg",
+    "nome_funcionario": "Joao Silva",
+    "telefone_funcionario": "5511999999999",
+    "cpf_funcionario": "12345678909",
+    "rg_funcionario": "12345678"
+  },
+  {
+    "cenario": "funcionario_06_dados_pessoais",
+    "nome_funcionario": "Joao Silva",
+    "telefone_funcionario": "5511999999999",
+    "cpf_funcionario": "12345678909",
+    "rg_funcionario": "12345678",
+    "sexo_funcionario": "M",
+    "data_nascimento_funcionario": "1990-01-01"
+  },
+  {
+    "cenario": "funcionario_07_admissao",
+    "nome_funcionario": "Joao Silva",
+    "telefone_funcionario": "5511999999999",
+    "cpf_funcionario": "12345678909",
+    "rg_funcionario": "12345678",
+    "sexo_funcionario": "M",
+    "data_nascimento_funcionario": "1990-01-01",
+    "data_admissao_funcionario": "2020-01-01"
+  },
+  {
+    "cenario": "funcionario_08_cargo_departamento",
+    "nome_funcionario": "Joao Silva",
+    "telefone_funcionario": "5511999999999",
+    "cpf_funcionario": "12345678909",
+    "rg_funcionario": "12345678",
+    "sexo_funcionario": "M",
+    "data_nascimento_funcionario": "1990-01-01",
+    "data_admissao_funcionario": "2020-01-01",
+    "departamento_funcionario": "Tecnologia",
+    "cargo_funcionario": "Gerente"
+  },
+  {
+    "cenario": "funcionario_09_salario",
+    "nome_funcionario": "Joao Silva",
+    "telefone_funcionario": "5511999999999",
+    "cpf_funcionario": "12345678909",
+    "rg_funcionario": "12345678",
+    "sexo_funcionario": "M",
+    "data_nascimento_funcionario": "1990-01-01",
+    "data_admissao_funcionario": "2020-01-01",
+    "departamento_funcionario": "Tecnologia",
+    "cargo_funcionario": "Gerente",
+    "salario_funcionario": 5500.0
+  },
+  {
+    "cenario": "funcionario_10_estado_civil_pcd",
+    "nome_funcionario": "Joao Silva",
+    "telefone_funcionario": "5511999999999",
+    "cpf_funcionario": "12345678909",
+    "rg_funcionario": "12345678",
+    "sexo_funcionario": "M",
+    "data_nascimento_funcionario": "1990-01-01",
+    "data_admissao_funcionario": "2020-01-01",
+    "departamento_funcionario": "Tecnologia",
+    "cargo_funcionario": "Gerente",
+    "salario_funcionario": 5500.0,
+    "estado_civil_funcionario": "Casado",
+    "pcd_funcionario": false
+  },
+  {
+    "cenario": "funcionario_11_dependentes_zero",
+    "nome_funcionario": "Joao Silva",
+    "telefone_funcionario": "5511999999999",
+    "cpf_funcionario": "12345678909",
+    "rg_funcionario": "12345678",
+    "sexo_funcionario": "M",
+    "data_nascimento_funcionario": "1990-01-01",
+    "data_admissao_funcionario": "2020-01-01",
+    "departamento_funcionario": "Tecnologia",
+    "cargo_funcionario": "Gerente",
+    "salario_funcionario": 5500.0,
+    "estado_civil_funcionario": "Casado",
+    "pcd_funcionario": false,
+    "quantidade_dependentes": 0
+  },
+  {
+    "cenario": "funcionario_12_completo_valido",
+    "nome_funcionario": "Joao Silva",
+    "telefone_funcionario": "5511999999999",
+    "cpf_funcionario": "12345678909",
+    "rg_funcionario": "12345678",
+    "sexo_funcionario": "M",
+    "data_nascimento_funcionario": "1990-01-01",
+    "data_admissao_funcionario": "2020-01-01",
+    "departamento_funcionario": "Tecnologia",
+    "cargo_funcionario": "Gerente",
+    "salario_funcionario": 5500.0,
+    "estado_civil_funcionario": "Casado",
+    "pcd_funcionario": false,
+    "quantidade_dependentes": 2,
+    "dependentes": [
+      {},
+      {}
+    ]
+  },
+  {
+    "cenario": "dependente_01_funcionario_completo_sem_dependentes",
+    "nome_funcionario": "Joao Silva",
+    "telefone_funcionario": "5511999999999",
+    "cpf_funcionario": "12345678909",
+    "rg_funcionario": "12345678",
+    "sexo_funcionario": "M",
+    "data_nascimento_funcionario": "1990-01-01",
+    "data_admissao_funcionario": "2020-01-01",
+    "departamento_funcionario": "Tecnologia",
+    "cargo_funcionario": "Gerente",
+    "salario_funcionario": 5500.0,
+    "estado_civil_funcionario": "Casado",
+    "pcd_funcionario": false,
+    "quantidade_dependentes": 1
+  },
+  {
+    "cenario": "dependente_02_dependente_vazio",
+    "nome_funcionario": "Joao Silva",
+    "telefone_funcionario": "5511999999999",
+    "cpf_funcionario": "12345678909",
+    "rg_funcionario": "12345678",
+    "sexo_funcionario": "M",
+    "data_nascimento_funcionario": "1990-01-01",
+    "data_admissao_funcionario": "2020-01-01",
+    "departamento_funcionario": "Tecnologia",
+    "cargo_funcionario": "Gerente",
+    "salario_funcionario": 5500.0,
+    "estado_civil_funcionario": "Casado",
+    "pcd_funcionario": false,
+    "quantidade_dependentes": 1,
+    "dependentes": [
+      {}
+    ]
+  },
+  {
+    "cenario": "dependente_03_nome_dependente",
+    "nome_funcionario": "Joao Silva",
+    "telefone_funcionario": "5511999999999",
+    "cpf_funcionario": "12345678909",
+    "rg_funcionario": "12345678",
+    "sexo_funcionario": "M",
+    "data_nascimento_funcionario": "1990-01-01",
+    "data_admissao_funcionario": "2020-01-01",
+    "departamento_funcionario": "Tecnologia",
+    "cargo_funcionario": "Gerente",
+    "salario_funcionario": 5500.0,
+    "estado_civil_funcionario": "Casado",
+    "pcd_funcionario": false,
+    "quantidade_dependentes": 1,
+    "dependentes": [
+      {
+        "nome_dependente": "Maria Silva"
+      }
+    ]
+  },
+  {
+    "cenario": "dependente_04_nome_cpf_dependente",
+    "nome_funcionario": "Joao Silva",
+    "telefone_funcionario": "5511999999999",
+    "cpf_funcionario": "12345678909",
+    "rg_funcionario": "12345678",
+    "sexo_funcionario": "M",
+    "data_nascimento_funcionario": "1990-01-01",
+    "data_admissao_funcionario": "2020-01-01",
+    "departamento_funcionario": "Tecnologia",
+    "cargo_funcionario": "Gerente",
+    "salario_funcionario": 5500.0,
+    "estado_civil_funcionario": "Casado",
+    "pcd_funcionario": false,
+    "quantidade_dependentes": 1,
+    "dependentes": [
+      {
+        "nome_dependente": "Maria Silva",
+        "cpf_dependente": "98765432100"
+      }
+    ]
+  },
+  {
+    "cenario": "dependente_05_nome_cpf_rg_dependente",
+    "nome_funcionario": "Joao Silva",
+    "telefone_funcionario": "5511999999999",
+    "cpf_funcionario": "12345678909",
+    "rg_funcionario": "12345678",
+    "sexo_funcionario": "M",
+    "data_nascimento_funcionario": "1990-01-01",
+    "data_admissao_funcionario": "2020-01-01",
+    "departamento_funcionario": "Tecnologia",
+    "cargo_funcionario": "Gerente",
+    "salario_funcionario": 5500.0,
+    "estado_civil_funcionario": "Casado",
+    "pcd_funcionario": false,
+    "quantidade_dependentes": 1,
+    "dependentes": [
+      {
+        "nome_dependente": "Maria Silva",
+        "cpf_dependente": "98765432100",
+        "rg_dependente": "87654321"
+      }
+    ]
+  },
+  {
+    "cenario": "dependente_06_nome_cpf_rg_data_nascimento",
+    "nome_funcionario": "Joao Silva",
+    "telefone_funcionario": "5511999999999",
+    "cpf_funcionario": "12345678909",
+    "rg_funcionario": "12345678",
+    "sexo_funcionario": "M",
+    "data_nascimento_funcionario": "1990-01-01",
+    "data_admissao_funcionario": "2020-01-01",
+    "departamento_funcionario": "Tecnologia",
+    "cargo_funcionario": "Gerente",
+    "salario_funcionario": 5500.0,
+    "estado_civil_funcionario": "Casado",
+    "pcd_funcionario": false,
+    "quantidade_dependentes": 1,
+    "dependentes": [
+      {
+        "nome_dependente": "Maria Silva",
+        "cpf_dependente": "98765432100",
+        "rg_dependente": "87654321",
+        "data_nascimento_dependente": "2015-06-01"
+      }
+    ]
+  },
+  {
+    "cenario": "dependente_07_nome_cpf_rg_data_sexo",
+    "nome_funcionario": "Joao Silva",
+    "telefone_funcionario": "5511999999999",
+    "cpf_funcionario": "12345678909",
+    "rg_funcionario": "12345678",
+    "sexo_funcionario": "M",
+    "data_nascimento_funcionario": "1990-01-01",
+    "data_admissao_funcionario": "2020-01-01",
+    "departamento_funcionario": "Tecnologia",
+    "cargo_funcionario": "Gerente",
+    "salario_funcionario": 5500.0,
+    "estado_civil_funcionario": "Casado",
+    "pcd_funcionario": false,
+    "quantidade_dependentes": 1,
+    "dependentes": [
+      {
+        "nome_dependente": "Maria Silva",
+        "cpf_dependente": "98765432100",
+        "rg_dependente": "87654321",
+        "data_nascimento_dependente": "2015-06-01",
+        "sexo_dependente": "F"
+      }
+    ]
+  },
+  {
+    "cenario": "dependente_08_nome_cpf_rg_data_sexo_pcd",
+    "nome_funcionario": "Joao Silva",
+    "telefone_funcionario": "5511999999999",
+    "cpf_funcionario": "12345678909",
+    "rg_funcionario": "12345678",
+    "sexo_funcionario": "M",
+    "data_nascimento_funcionario": "1990-01-01",
+    "data_admissao_funcionario": "2020-01-01",
+    "departamento_funcionario": "Tecnologia",
+    "cargo_funcionario": "Gerente",
+    "salario_funcionario": 5500.0,
+    "estado_civil_funcionario": "Casado",
+    "pcd_funcionario": false,
+    "quantidade_dependentes": 1,
+    "dependentes": [
+      {
+        "nome_dependente": "Maria Silva",
+        "cpf_dependente": "98765432100",
+        "rg_dependente": "87654321",
+        "data_nascimento_dependente": "2015-06-01",
+        "sexo_dependente": "F",
+        "pcd_dependente": false
+      }
+    ]
+  },
+  {
+    "cenario": "completo e certo",
+    "nome_funcionario": "Miguel Belizario Amaro Lopes",
+    "telefone_funcionario": "5511971646653",
+    "cpf_funcionario": "50057012814",
+    "rg_funcionario": "16774828X",
+    "salario_funcionario": 1.00,
+    "departamento_funcionario": "2",
+    "cargo_funcionario": "2",
+    "data_admissao_funcionario": "10/01/2026",
+    "data_nascimento_funcionario": "02/03/2008",
+    "sexo_funcionario": "F",
+    "pcd_funcionario": "S",
+    "estado_civil_funcionario": "S",
+    "quantidade_dependentes": "01",
+    "dependentes": [
+      {
+        "nome_dependente": "Miguelzinho Belizario",
+        "cpf_dependente": "50057112814",
+        "rg_dependente": "buubuebr1",
+        "data_nascimento_dependente": "20/07/2011",
+        "sexo_dependente": "F",
+        "pcd_dependente": "N",
+        "estado_civil_dependente": "S"
+      }
+    ]
+  },
+  {
+    "cenario": "completo e certo",
+    "nome_funcionario": "Antonio Sauza Martins",
+    "telefone_funcionario": "5511971600053",
+    "cpf_funcionario": "50057012819",
+    "rg_funcionario": "16754828X",
+    "salario_funcionario": 1.00,
+    "departamento_funcionario": "2",
+    "cargo_funcionario": "2",
+    "data_admissao_funcionario": "10/01/2026",
+    "data_nascimento_funcionario": "02/03/2008",
+    "sexo_funcionario": "F",
+    "pcd_funcionario": "S",
+    "estado_civil_funcionario": "S",
+    "quantidade_dependentes": "01",
+    "dependentes": [
+      {
+        "nome_dependente": "Miguelzinho Belizario",
+        "cpf_dependente": "50057112810",
+        "rg_dependente": "buubuebr1",
+        "data_nascimento_dependente": "20/07/2011",
+        "sexo_dependente": "F",
+        "pcd_dependente": "N",
+        "estado_civil_dependente": "S"
+      }
+    ]
+  },
+  {
+    "cenario": "completo e certo",
+    "nome_funcionario": "Joao Silva martins da silva",
+    "telefone_funcionario": "5511999999999",
+    "cpf_funcionario": "92345678909",
+    "rg_funcionario": "12345678",
+    "sexo_funcionario": "M",
+    "data_nascimento_funcionario": "01/01/1990",
+    "data_admissao_funcionario": "01/01/2020",
+    "departamento_funcionario": "1",
+    "cargo_funcionario": "2",
+    "salario_funcionario": 5500.00,
+    "estado_civil_funcionario": "C",
+    "pcd_funcionario": "N",
+    "quantidade_dependentes": "01",
+    "dependentes": [
+      {
+        "nome_dependente": "Maria Silva martins da silva",
+        "cpf_dependente": "98765432109",
+        "rg_dependente": "87654321",
+        "data_nascimento_dependente": "01/06/2015",
+        "sexo_dependente": "F",
+        "pcd_dependente": "S",
+        "estado_civil_dependente": "S"
+      }
+    ]
+  }
+]

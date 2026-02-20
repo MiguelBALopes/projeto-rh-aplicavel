@@ -1,0 +1,56 @@
+[
+  {
+    "nome_funcionario": "Miguel Belizario Amaro Lopes",
+    "telefone_funcionario": "5511971646653",
+    "cpf_funcionario": 50057012814,
+    "rg_funcionario": "16774828X",
+    "salario_funcionario": 1.0,
+    "departamento_funcionario": "2",
+    "cargo_funcionario": "2",
+    "data_admissao_funcionario": "10/01/2026",
+    "data_ultima_ferias": "",
+    "data_nascimento_funcionario": "02/03/2008",
+    "sexo_funcionario": "F",
+    "pcd_funcionario": "S",
+    "estado_civil_funcionario": "S",
+    "quantidade_dependentes": "01",
+    "dependentes": [
+      {
+        "nome_dependente": "Miguelzinho Belizario",
+        "cpf_dependente": 50057112814,
+        "rg_dependente": "buubuebr1",
+        "data_nascimento_dependente": "20/07/2011",
+        "sexo_dependente": "F",
+        "pcd_dependente": "N",
+        "estado_civil_dependente": "S"
+      }
+    ]
+  },
+  {
+    "nome_funcionario": "Joao Silva martins da silva",
+    "telefone_funcionario": "5511999999999",
+    "cpf_funcionario": 92345678909,
+    "rg_funcionario": "12345678",
+    "sexo_funcionario": "M",
+    "data_nascimento_funcionario": "01/01/1990",
+    "data_admissao_funcionario": "01/01/2020",
+    "data_ultima_ferias": "01/06/2025",
+    "departamento_funcionario": "1",
+    "cargo_funcionario": "2",
+    "salario_funcionario": 5500.0,
+    "estado_civil_funcionario": "C",
+    "pcd_funcionario": "N",
+    "quantidade_dependentes": "01",
+    "dependentes": [
+      {
+        "nome_dependente": "Maria Silva martins da silva",
+        "cpf_dependente": 98765432109,
+        "rg_dependente": "87654321",
+        "data_nascimento_dependente": "01/06/2015",
+        "sexo_dependente": "F",
+        "pcd_dependente": "S",
+        "estado_civil_dependente": "S"
+      }
+    ]
+  }
+]
