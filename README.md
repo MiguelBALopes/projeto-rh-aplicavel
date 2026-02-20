@@ -1,10 +1,10 @@
-# Projeto de RH Aplicável
+# 💼 Projeto de RH Aplicável
 
 Sistema backend desenvolvido em Python com implementação completa de operações CRUD, integrado ao Amazon DynamoDB em ambiente de nuvem (AWS).
 
 ---
 
-## Tecnologias Utilizadas
+## 🚀 Tecnologias Utilizadas
 
 - Python
 - Amazon DynamoDB
@@ -15,7 +15,7 @@ Sistema backend desenvolvido em Python com implementação completa de operaçõ
 
 ---
 
-## Funcionalidades
+## 🔄 Funcionalidades
 
 - Cadastro de funcionários (Create)
 - Consulta de dados (Read)
@@ -24,12 +24,12 @@ Sistema backend desenvolvido em Python com implementação completa de operaçõ
 
 ---
 
-## Arquitetura
+## ☁ Arquitetura
 
 Aplicação backend integrada à AWS, utilizando DynamoDB como banco de dados NoSQL em nuvem, com foco em organização modular e escalabilidade.
 
 ---
 
-## Objetivo do Projeto
+## 📈 Objetivo do Projeto
 
 Aplicar conceitos de backend, persistência de dados, arquitetura em nuvem e boas práticas de desenvolvimento.
